@@ -71,9 +71,6 @@ body, html {
     letter-spacing: 10px;
   }
 
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
-
-
 body{
   height: 100%; 
   font-family: 'Noto Sans', sans-serif;
