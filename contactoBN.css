@@ -74,7 +74,7 @@ body, html {
 body{
   height: 100%; 
   font-family: 'Noto Sans', sans-serif;
-  background-color: lightblue; 
+  background-color: #0066FF;
 }
 
 
@@ -85,7 +85,7 @@ body{
   border-radius: 10px;  
   padding-top: 30px;
   padding-bottom: 20px;  
-  background-color: rgb(243, 243, 34); 
+  background-color:lightblue; 
   padding-left: 30px; 
 }
 
