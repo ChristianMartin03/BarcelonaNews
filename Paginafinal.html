@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcelona News</title>
+    <link rel="stylesheet" type="text/css" href="Paginafinal.css">
+    <link rel="shortcut icon" href="http://assets.stickpng.com/images/584a9b3bb080d7616d298777.png">
+</head>
+<body>
+    <header>
+      <nav>
+        <ul id="menu">
+          <li><a href="Paginafinal.html">Inicio</a></li>
+            <li><a href="Actualidad.html">Actualidad</a>
+            <li><a href="Plantilla.html">Plantilla</a></li>
+            <li><a href="Palmares.html">Palmares</a></li>
+            </ul>  
+      </nav>
+    </header>
+  </body>
+<body>
+    <div class="parallax1"></div>
+    <div class="caption">
+        <span class="border">BARCELONA NEWS</span>
+        </div>
+</body>
+<body>
+<br>
+<h2>Equipaciones 21/22</h2>
+<br>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="https://estaticos-cdn.prensaiberica.es/clip/65947e53-58f1-4a3a-8d7e-7e880c52a3b2_16-9-discover-aspect-ratio_default_1058130.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="https://phantom-marca.unidadeditorial.es/848eb85d1b482e69b298a39c8fb43115/resize/1320/f/jpg/assets/multimedia/imagenes/2021/07/15/16263366636311.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="https://phantom-marca.unidadeditorial.es/67be490ce2e4d8a938cc34319a809f22/resize/1320/f/jpg/assets/multimedia/imagenes/2021/09/09/16311750744372.jpg" style="width:100%">
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3500); 
+}
+</script>
+</body>
+  <div class="tiles"><a class="tile" href="Actualidad.html"><img src="https://www.fcbarcelona.com/photo-resources/2019/11/15/b23643b6-bc06-41e1-89ba-6a93bb9a847e/comunicacio-institucional.jpg?width=1200&height=750"/>
+    <div class="details"><span class="title">Actualidad</span><span class="info">Ultimas Noticias Sobre El FC Barcelona</span></div></a><a class="tile" href="Plantilla.html"><img src="https://www.fcbarcelona.com/photo-resources/2021/09/01/ab9765b4-7622-4121-9352-f4b9c46cb420/mini_3200x2000-portada-.jpg?width=1200&height=750"/>
+    <div class="details"><span class="title">Plantilla</span><span class="info">Plantilla Actual Del FC Barcelona</span></div></a><a class="tile" href="Palmares.html"><img src="https://www.culemania.com/uploads/s1/77/40/68/3/c0cnavoxgaazwum.jpeg"/>
+    <div class="details"><span class="title">Palmares</span><span class="info">Todos Los Trofeos Obtenidos Hasta La Fecha</span></div></a></div>
+<br><br><br>
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h6>Sobre Nosotros</h6>
+        <p class="text-justify"> El Fútbol Club Barcelona, conocido popularmente como Barça, ​ 
+                                 es una entidad polideportiva con sede en Barcelona, España. 
+                                 Fue fundado como club de fútbol el 29 de noviembre de 1899 y registrado oficialmente
+                                 el 5 de enero de 1903. Su actual presidente es Joan Laporta.</p>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Categorias</h6>
+        <ul class="footer-links">
+          <li><p onclick="window.location.href='Paginafinal.html' "style="cursor: pointer;" target="_blank">Inicio</p></td></li>
+          <li><p onclick="window.location.href='Actualidad.html' "style="cursor: pointer;" target="_blank">Actualidad</p></td></li>
+          <li><p onclick="window.location.href='Plantilla.html' "style="cursor: pointer;" target="_blank">Plantilla</p></td></li>
+          <li><p onclick="window.location.href='Palmares.html' "style="cursor: pointer;" target="_blank">Palmares</p></td></li>
+          <li><p onclick="window.location.href='contactoBN.html' "style="cursor: pointer;" target="_blank">Contacto</p></td></li>
+        </ul>
+      </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright &copy; 2021 Todos Los Derechos Reservados Por FC Barcelona
+        </p>
+      </div>
+  </div>
+</footer>
+</body>
+</html>
